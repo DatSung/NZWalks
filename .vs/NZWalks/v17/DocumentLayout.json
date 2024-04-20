@@ -7,55 +7,55 @@
       "RelativeMoniker": "D:0:0:{78460E9B-FD53-487D-904C-65E54FACCCF5}|NZWalks.Service\\NZWalks.Service.csproj|solutionrelative:nzwalks.service\\customactionfilters\\validatemodelattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78460E9B-FD53-487D-904C-65E54FACCCF5}|NZWalks.Service\\NZWalks.Service.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\nzwalks.service\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78460E9B-FD53-487D-904C-65E54FACCCF5}|NZWalks.Service\\NZWalks.Service.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\nzwalks.service\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78460E9B-FD53-487D-904C-65E54FACCCF5}|NZWalks.Service\\NZWalks.Service.csproj|solutionrelative:nzwalks.service\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\nzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\nzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\dto\\updatewalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\dto\\updatewalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\dto\\updatewalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\dto\\addwalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\dto\\addwalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\dto\\addwalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\dto\\updateregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\dto\\updateregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\dto\\updateregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\dto\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\dto\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\dto\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\dto\\difficultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\dto\\difficultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\dto\\difficultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\dto\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\dto\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\dto\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\model\\models\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\model\\models\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C5EE7E-C47E-4ECF-A039-1D193F2EAC19}|Model\\NZWalks.Model.csproj|solutionrelative:model\\models\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,8 +90,7 @@
               "RelativeToolTip": "NZWalks.Service\\Mappings\\AutoMapperProfiles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T12:07:36.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T12:07:36.761Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "NZWalks.API\\Controllers\\RegionsController.cs",
               "ViewState": "AQIAADQAAAAAAAAAAAAAAEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T03:54:29.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T03:54:29.315Z"
             },
             {
               "$type": "Document",
@@ -129,8 +127,7 @@
               "RelativeToolTip": "Model\\Models\\DTO\\AddWalkRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T03:58:40.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T03:58:40.053Z"
             },
             {
               "$type": "Document",
@@ -142,8 +139,7 @@
               "RelativeToolTip": "Model\\Models\\DTO\\UpdateWalkRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T03:58:54.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T03:58:54.307Z"
             },
             {
               "$type": "Document",
@@ -155,8 +151,7 @@
               "RelativeToolTip": "NZWalks.API\\Controllers\\WalksController.cs",
               "ViewState": "AQIAAE8AAAAAAAAAAAAAAGUAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T03:54:19.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T03:54:19.939Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "Model\\Models\\DTO\\UpdateRegionRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T04:02:19.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T04:02:19.41Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "Model\\Models\\DTO\\AddRegionRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T11:04:52.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T11:04:52.736Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "Model\\Models\\Domain\\Region.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T06:32:09.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T06:32:09.036Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "Model\\Models\\DTO\\WalkDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T03:58:24.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T03:58:24.021Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "Model\\Models\\DTO\\DifficultyDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T04:39:12.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T04:39:12.041Z"
             },
             {
               "$type": "Document",
@@ -233,8 +223,7 @@
               "RelativeToolTip": "Model\\Models\\DTO\\RegionDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T04:02:25.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T04:02:25.247Z"
             },
             {
               "$type": "Document",
@@ -246,8 +235,7 @@
               "RelativeToolTip": "Model\\Models\\Domain\\Difficulty.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T04:39:18.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T04:39:18.131Z"
             },
             {
               "$type": "Document",
@@ -259,8 +247,7 @@
               "RelativeToolTip": "Model\\Models\\Domain\\Walk.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T04:00:05.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T04:00:05.654Z"
             }
           ]
         },

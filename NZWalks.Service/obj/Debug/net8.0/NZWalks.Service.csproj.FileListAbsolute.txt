@@ -13,3 +13,4 @@ D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.Service\obj\D
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.Service\obj\Debug\net8.0\refint\NZWalks.Service.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.Service\obj\Debug\net8.0\NZWalks.Service.pdb
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.Service\obj\Debug\net8.0\ref\NZWalks.Service.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.Service\obj\Debug\net8.0\NZWalks.Service.sourcelink.json

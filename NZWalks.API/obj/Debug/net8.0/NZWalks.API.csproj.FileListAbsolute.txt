@@ -141,3 +141,4 @@ D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\AutoMapper.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\NZWalks.Service.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\NZWalks.Service.pdb
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.sourcelink.json
