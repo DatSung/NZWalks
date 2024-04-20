@@ -1,0 +1,17 @@
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\bin\Debug\net8.0\NZWalks.DataAccess.deps.json
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\bin\Debug\net8.0\NZWalks.DataAccess.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\bin\Debug\net8.0\NZWalks.DataAccess.pdb
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\bin\Debug\net8.0\NZWalks.Model.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\bin\Debug\net8.0\NZWalks.Model.pdb
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.csproj.AssemblyReference.cache
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.AssemblyInfoInputs.cache
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.AssemblyInfo.cs
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.csproj.CoreCompileInputs.cache
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks..3040C4E2.Up2Date
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\refint\NZWalks.DataAccess.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.pdb
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\ref\NZWalks.DataAccess.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\bin\Debug\net8.0\NZWalks.DataAccess.runtimeconfig.json
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.genruntimeconfig.cache
