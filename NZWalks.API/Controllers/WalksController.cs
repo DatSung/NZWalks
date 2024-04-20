@@ -50,17 +50,97 @@ namespace NZWalks.API.Controllers
         }
 
         // GET ALL WALKS
-        // GET: /nzwalks/walks
+        // GET: /nzwalks/walks?filterOn=Name&filterQuery=Track&sortBy=Name&isAscending=true
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll(
+            [FromQuery] string? filterOn,
+            [FromQuery] string? filterQuery,
+            [FromQuery] string? sortBy,
+            [FromQuery] bool? isAscending,
+            [FromQuery] int pageNumber = 1,
+            [FromQuery] int pageSize = 3
+
+            )
         {
             try
             {
-                var walksDTO = _mapper.Map<List<WalkDTO>>(
-                    await _unitOfWork.WalkRepository.GetAllAsync(
-                        includeProperties: "Region,Difficulty"));
+                var walksDTO = new List<WalkDTO>();
 
-                return Ok(walksDTO);
+                // Filter
+                if (!string.IsNullOrEmpty(filterOn) && !string.IsNullOrEmpty(filterQuery))
+                {
+
+                    switch (filterOn.Trim().ToLower())
+                    {
+                        case "name":
+                            {
+                                walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
+                                    filter: x => x.Name.Contains(filterQuery), includeProperties: "Region,Difficulty"));
+
+                                break;
+                            }
+
+                        case "description":
+                            {
+                                walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
+                                    filter: x => x.Description.Contains(filterQuery), includeProperties: "Region,Difficulty"));
+
+                                break;
+                            }
+
+                        case "lengthtnkm":
+                            {
+                                walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
+                                    filter: x => x.LengthInKm == double.Parse(filterQuery), includeProperties: "Region,Difficulty"));
+
+                                break;
+                            }
+
+                        default:
+                            {
+                                walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
+                                    includeProperties: "Region,Difficulty"));
+
+                                break;
+                            }
+                    }
+                }
+                else
+                {
+                    walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
+                        includeProperties: "Region,Difficulty"));
+                }
+
+                // Sort
+                if (!string.IsNullOrEmpty(sortBy))
+                {
+                    switch (sortBy.Trim().ToLower())
+                    {
+                        case "name":
+                            {
+                                walksDTO = isAscending == true ? [.. walksDTO.OrderBy(x => x.Name)] : [.. walksDTO.OrderByDescending(x => x.Name)];
+                                break;
+                            }
+
+                        case "description":
+                            {
+                                walksDTO = isAscending == true ? [.. walksDTO.OrderBy(x => x.Description)] : [.. walksDTO.OrderByDescending(x => x.Description)];
+                                break;
+                            }
+
+                        case "lengthinkm":
+                            {
+                                walksDTO = isAscending == true ? [.. walksDTO.OrderBy(x => x.LengthInKm)] : [.. walksDTO.OrderByDescending(x => x.LengthInKm)];
+                                break;
+                            }
+                    }
+                }
+
+                // Pagination
+                var skilResult = (pageNumber - 1) * pageSize;
+
+                return Ok(walksDTO.Skip(skilResult).Take(pageSize));
+
             }
             catch (Exception ex)
             {
