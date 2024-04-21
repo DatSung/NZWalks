@@ -10,3 +10,4 @@ D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\Model\obj\Debug\net8.
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\Model\obj\Debug\net8.0\NZWalks.Model.pdb
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\Model\obj\Debug\net8.0\ref\NZWalks.Model.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\Model\obj\Debug\net8.0\NZWalks.Model.sourcelink.json
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\Model\obj\Debug\net8.0\NZWalks.Model.csproj.AssemblyReference.cache

@@ -1219,6 +1219,9 @@
       "NZWalks.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0"
+        },
         "compile": {
           "bin/placeholder/NZWalks.Model.dll": {}
         },

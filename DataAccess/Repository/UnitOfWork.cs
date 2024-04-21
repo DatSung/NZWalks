@@ -19,12 +19,15 @@ namespace NZWalks.DataAccess.Repository
 
         public IWalkRepository WalkRepository { get; set; }
 
+        public IImageRepository ImageRepository { get; set; }
+
         public UnitOfWork(NZWalksDbContext context)
         {
             _context = context;
             DifficultyRepository = new DifficultyRepository(_context);
             RegionRepository = new RegionRepository(_context);
             WalkRepository = new WalkRepository(_context);
+            ImageRepository = new ImageRepository(_context);
         }
 
         public async Task SaveAsync()

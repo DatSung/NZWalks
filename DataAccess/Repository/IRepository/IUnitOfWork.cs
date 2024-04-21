@@ -11,6 +11,8 @@ namespace NZWalks.DataAccess.Repository.IRepository
         IDifficultyRepository DifficultyRepository { get; }
         IRegionRepository RegionRepository { get; }
         IWalkRepository WalkRepository { get; }
+        IImageRepository ImageRepository { get; }
+
         Task SaveAsync();
     }
 }

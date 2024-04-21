@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\nzwalks.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -40,22 +44,35 @@
               "RelativeDocumentMoniker": "NZWalks.API\\Program.cs",
               "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\Program.cs",
               "RelativeToolTip": "NZWalks.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAH0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T07:41:07.904Z",
+              "WhenOpened": "2024-04-21T14:16:01.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RegionsController.cs",
               "DocumentMoniker": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\RegionsController.cs",
               "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "NZWalks.API\\Controllers\\RegionsController.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAAAKkAAAABAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T07:18:35.171Z",
+              "WhenOpened": "2024-04-21T13:54:57.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\ImagesController.cs",
+              "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "NZWalks.API\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAqwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:54:18.758Z",
               "EditorCaption": ""
             }
           ]
