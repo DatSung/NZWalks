@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace NZWalks.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class Intial : Migration
+    public partial class IntialDatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

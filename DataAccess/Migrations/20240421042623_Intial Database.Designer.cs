@@ -12,8 +12,8 @@ using NZWalks.DataAccess.Data;
 namespace NZWalks.DataAccess.Migrations
 {
     [DbContext(typeof(NZWalksDbContext))]
-    [Migration("20240419052502_Intial")]
-    partial class Intial
+    [Migration("20240421042623_Intial Database")]
+    partial class IntialDatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

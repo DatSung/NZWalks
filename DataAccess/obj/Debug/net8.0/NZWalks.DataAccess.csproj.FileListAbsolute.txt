@@ -15,3 +15,4 @@ D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\ref\NZWalks.DataAccess.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\bin\Debug\net8.0\NZWalks.DataAccess.runtimeconfig.json
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.genruntimeconfig.cache
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\DataAccess\obj\Debug\net8.0\NZWalks.DataAccess.sourcelink.json
