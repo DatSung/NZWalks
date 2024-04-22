@@ -149,3 +149,12 @@ D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Sinks.File.dll

@@ -8,6 +8,7 @@ using NZWalks.DataAccess.Repository.IRepository;
 using NZWalks.Model.Models.Domain;
 using NZWalks.Model.Models.DTO;
 using NZWalks.Service.CustomActionFilters;
+using System.Text.Json;
 
 namespace NZWalks.API.Controllers
 {
@@ -17,33 +18,44 @@ namespace NZWalks.API.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly ILogger<RegionsController> _logger;
 
-        public RegionsController(IUnitOfWork unitOfWork, IMapper mapper)
+        public RegionsController(IUnitOfWork unitOfWork, IMapper mapper, ILogger<RegionsController> logger)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _logger = logger;
         }
 
         // GET ALL REGIONS
         // GET: https://localhost:portnumber/nzwalks/regions
         [HttpGet]
-        [Authorize(Roles = "Reader,Writer")]
+
         public async Task<IActionResult> GetAll()
         {
+            _logger.LogInformation("GetAllRegions action method was invoked");
+
             // GetAsync data from database - Model.Models.Domain
             var regions = await _unitOfWork.RegionRepository.GetAllAsync();
+            _logger.LogInformation($"Finish GetAllRegions request with data: {JsonSerializer.Serialize(regions)}");
 
             // Map Domain Model to DTOs
             var regionsDTO = _mapper.Map<List<RegionDTO>>(regions);
+            _logger.LogInformation("Mapped Model to DTO");
 
             // Process
             if (regionsDTO.IsNullOrEmpty())
             {
                 // Return NotFound
+                _logger.LogWarning("GetAllRegions did not get any objects");
                 return NotFound();
             }
 
+            // Just throw an exception, the ExceptionHandlerMiddleware will handle the message!
+            throw new Exception();
+
             // Return Ok DTOs
+            _logger.LogInformation($"Return Regions for client: {regionsDTO}");
             return Ok(regionsDTO);
 
         }
