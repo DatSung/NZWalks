@@ -1,0 +1,117 @@
+2024-04-24 01:01:15.350 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 01:01:16.059 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 01:01:16.064 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 01:01:16.079 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 01:01:16.084 +07:00 [INF] Hosting environment: Development
+2024-04-24 01:01:16.089 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 01:01:18.631 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 01:01:19.659 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 1049.7762ms
+2024-04-24 01:01:19.682 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 01:01:19.682 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 01:01:19.732 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 51.4802ms
+2024-04-24 01:01:19.920 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 238.6916ms
+2024-04-24 01:01:20.071 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 01:01:20.651 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 580.1841ms
+2024-04-24 01:01:52.911 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/nzwalks/Difficulties - null null
+2024-04-24 01:01:53.023 +07:00 [INF] Executing endpoint 'NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API)'
+2024-04-24 01:01:53.062 +07:00 [INF] Route matched with {action = "GetAll", controller = "Difficulties"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller NZWalks.API.Controllers.DifficultiesController (NZWalks.API).
+2024-04-24 01:01:59.065 +07:00 [INF] Executed DbCommand (165ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Name]
+FROM [Difficulties] AS [d]
+2024-04-24 01:01:59.500 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NZWalks.Model.Models.DTO.DifficultyDTO, NZWalks.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-24 01:01:59.551 +07:00 [INF] Executed action NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API) in 6466.115ms
+2024-04-24 01:01:59.569 +07:00 [INF] Executed endpoint 'NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API)'
+2024-04-24 01:01:59.601 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/nzwalks/Difficulties - 200 null application/json; charset=utf-8 6690.72ms
+2024-04-24 01:07:36.067 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 01:07:36.437 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 01:07:36.441 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 01:07:36.449 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 01:07:36.453 +07:00 [INF] Hosting environment: Development
+2024-04-24 01:07:36.457 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 01:07:37.140 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 01:07:37.624 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 487.3355ms
+2024-04-24 01:07:37.719 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 01:07:37.734 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 15.2825ms
+2024-04-24 01:07:38.042 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 01:07:38.135 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.6646ms
+2024-04-24 01:07:38.590 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 01:07:38.790 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetById (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 01:07:38.828 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 238.3487ms
+2024-04-24 01:07:43.760 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 01:07:43.778 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 17.4611ms
+2024-04-24 01:07:43.818 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 01:07:43.818 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 01:07:43.824 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.9465ms
+2024-04-24 01:07:43.841 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.4393ms
+2024-04-24 01:07:44.134 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 01:07:44.145 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetById (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 01:07:44.154 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 20.1288ms
+2024-04-24 01:08:24.388 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 01:08:24.826 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 01:08:24.835 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 01:08:24.852 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 01:08:24.858 +07:00 [INF] Hosting environment: Development
+2024-04-24 01:08:24.864 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 01:08:25.241 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 01:08:25.450 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 210.3701ms
+2024-04-24 01:08:25.535 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 01:08:25.539 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 01:08:25.547 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.0843ms
+2024-04-24 01:08:25.599 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.4931ms
+2024-04-24 01:08:25.867 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 01:08:26.024 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.2373ms
+2024-04-24 01:08:58.347 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7261/nzwalks/Auth/Login - application/json 70
+2024-04-24 01:08:58.527 +07:00 [INF] Executing endpoint 'NZWalks.API.Controllers.AuthController.Login (NZWalks.API)'
+2024-04-24 01:08:58.687 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NZWalks.Model.Models.DTO.LoginRequestDTO) on controller NZWalks.API.Controllers.AuthController (NZWalks.API).
+2024-04-24 01:09:07.113 +07:00 [INF] Executed DbCommand (310ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-04-24 01:09:08.497 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-04-24 01:09:08.668 +07:00 [INF] Executing OkObjectResult, writing value of type 'NZWalks.Model.Models.DTO.LoginResponseDTO'.
+2024-04-24 01:09:08.715 +07:00 [INF] Executed action NZWalks.API.Controllers.AuthController.Login (NZWalks.API) in 9994.105ms
+2024-04-24 01:09:08.725 +07:00 [INF] Executed endpoint 'NZWalks.API.Controllers.AuthController.Login (NZWalks.API)'
+2024-04-24 01:09:08.776 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7261/nzwalks/Auth/Login - 200 null application/json; charset=utf-8 10429.2672ms
+2024-04-24 01:09:30.102 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/nzwalks/Difficulties - null null
+2024-04-24 01:09:30.428 +07:00 [INF] Executing endpoint 'NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API)'
+2024-04-24 01:09:30.457 +07:00 [INF] Route matched with {action = "GetAll", controller = "Difficulties"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller NZWalks.API.Controllers.DifficultiesController (NZWalks.API).
+2024-04-24 01:09:31.462 +07:00 [INF] Difficulties GetAll action was invoke.
+2024-04-24 01:09:32.699 +07:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Name]
+FROM [Difficulties] AS [d]
+2024-04-24 01:09:32.872 +07:00 [INF] Return result to user.
+2024-04-24 01:09:32.877 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NZWalks.Model.Models.DTO.DifficultyDTO, NZWalks.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-24 01:09:32.915 +07:00 [INF] Executed action NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API) in 2452.0735ms
+2024-04-24 01:09:32.924 +07:00 [INF] Executed endpoint 'NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API)'
+2024-04-24 01:09:32.929 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/nzwalks/Difficulties - 200 null application/json; charset=utf-8 2825.9982ms
+2024-04-24 01:09:41.049 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/nzwalks/Difficulties/f808ddcd-b5e5-4d80-b732-1ca523e48434 - null null
+2024-04-24 01:09:41.077 +07:00 [INF] Executing endpoint 'NZWalks.API.Controllers.DifficultiesController.GetById (NZWalks.API)'
+2024-04-24 01:09:41.127 +07:00 [INF] Route matched with {action = "GetById", controller = "Difficulties"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller NZWalks.API.Controllers.DifficultiesController (NZWalks.API).
+2024-04-24 01:09:41.189 +07:00 [INF] Difficulties GetById action was invoke.
+2024-04-24 01:09:41.234 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[Id], [d].[Name]
+FROM [Difficulties] AS [d]
+WHERE [d].[Id] = @__id_0
+2024-04-24 01:09:41.253 +07:00 [INF] Return result to user.
+2024-04-24 01:09:41.257 +07:00 [INF] Executing OkObjectResult, writing value of type 'NZWalks.Model.Models.DTO.DifficultyDTO'.
+2024-04-24 01:09:41.263 +07:00 [INF] Executed action NZWalks.API.Controllers.DifficultiesController.GetById (NZWalks.API) in 128.0558ms
+2024-04-24 01:09:41.271 +07:00 [INF] Executed endpoint 'NZWalks.API.Controllers.DifficultiesController.GetById (NZWalks.API)'
+2024-04-24 01:09:41.277 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/nzwalks/Difficulties/f808ddcd-b5e5-4d80-b732-1ca523e48434 - 200 null application/json; charset=utf-8 227.8329ms

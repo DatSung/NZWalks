@@ -1,0 +1,19 @@
+2024-04-24 00:55:29.706 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 00:55:30.405 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 00:55:30.410 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 00:55:30.417 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 00:55:30.421 +07:00 [INF] Hosting environment: Development
+2024-04-24 00:55:30.424 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 00:55:31.482 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 00:55:32.057 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 577.3701ms
+2024-04-24 00:55:32.108 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 00:55:32.138 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 29.7111ms
+2024-04-24 00:55:32.968 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 00:55:33.129 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 160.1881ms
+2024-04-24 00:55:34.455 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 00:55:34.689 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.7201ms
+2024-04-24 00:55:40.612 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/nzwalks/Difficulties - null null
+2024-04-24 00:55:43.193 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Reader|Writer)
+2024-04-24 00:55:43.243 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-04-24 00:55:43.268 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/nzwalks/Difficulties - 401 0 null 2655.4452ms

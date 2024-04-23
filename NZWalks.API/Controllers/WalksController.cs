@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NZWalks.DataAccess.Repository.IRepository;
@@ -14,17 +15,20 @@ namespace NZWalks.API.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly ILogger<WalksController> _logger;
 
-        public WalksController(IUnitOfWork unitOfWork, IMapper mapper)
+        public WalksController(IUnitOfWork unitOfWork, IMapper mapper, ILogger<WalksController> logger)
         {
             _mapper = mapper;
             _unitOfWork = unitOfWork;
+            _logger = logger;
         }
 
         // CREATE A WALK
         // POST: /nzwalks/walks
         [HttpPost]
         [ValidateModel]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Create([FromBody] AddWalkRequestDTO addWalkRequestDTO)
         {
             try
@@ -52,6 +56,7 @@ namespace NZWalks.API.Controllers
         // GET ALL WALKS
         // GET: /nzwalks/walks?filterOn=Name&filterQuery=Track&sortBy=Name&isAscending=true
         [HttpGet]
+        [Authorize(Roles = "Reader,Writer")]
         public async Task<IActionResult> GetAll(
             [FromQuery] string? filterOn,
             [FromQuery] string? filterQuery,
@@ -153,6 +158,7 @@ namespace NZWalks.API.Controllers
         // GET: /nzwalks/walks/{id}
         [HttpGet]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Reader,Writer")]
         public async Task<IActionResult> Get([FromRoute] Guid id)
         {
             try
@@ -174,6 +180,7 @@ namespace NZWalks.API.Controllers
         [HttpPut]
         [Route("{id:Guid}")]
         [ValidateModel]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateWalkRequestDTO updateWalkRequestDTO)
         {
             try
@@ -213,6 +220,7 @@ namespace NZWalks.API.Controllers
         // DELETE: /nzwalks/walks/{id}
         [HttpDelete]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
             try

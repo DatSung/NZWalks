@@ -1,0 +1,2 @@
+2024-04-24 00:59:09.872 +07:00 [INF] Executed action NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API) in 61023.4403ms
+2024-04-24 00:59:09.888 +07:00 [INF] Executed endpoint 'NZWalks.API.Controllers.DifficultiesController.GetAll (NZWalks.API)'
