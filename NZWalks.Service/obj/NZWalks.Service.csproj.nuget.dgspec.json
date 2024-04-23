@@ -4,14 +4,14 @@
     "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj": {}
   },
   "projects": {
-    "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\Model\\NZWalks.Model.csproj": {
+    "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\Model\\NZWalks.Model.csproj",
+        "projectUniqueName": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj",
         "projectName": "NZWalks.Model",
-        "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\Model\\NZWalks.Model.csproj",
+        "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj",
         "packagesPath": "C:\\Users\\uinic\\.nuget\\packages\\",
-        "outputPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\Model\\obj\\",
+        "outputPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\uinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\Model\\NZWalks.Model.csproj": {
-                "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\Model\\NZWalks.Model.csproj"
+              "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
+                "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj"
               }
             }
           }

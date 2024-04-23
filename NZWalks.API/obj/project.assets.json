@@ -5892,13 +5892,13 @@
     },
     "NZWalks.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../DataAccess/NZWalks.DataAccess.csproj",
-      "msbuildProject": "../DataAccess/NZWalks.DataAccess.csproj"
+      "path": "../NZWalks.DataAccess/NZWalks.DataAccess.csproj",
+      "msbuildProject": "../NZWalks.DataAccess/NZWalks.DataAccess.csproj"
     },
     "NZWalks.Model/1.0.0": {
       "type": "project",
-      "path": "../Model/NZWalks.Model.csproj",
-      "msbuildProject": "../Model/NZWalks.Model.csproj"
+      "path": "../NZWalks.Model/NZWalks.Model.csproj",
+      "msbuildProject": "../NZWalks.Model/NZWalks.Model.csproj"
     },
     "NZWalks.Service/1.0.0": {
       "type": "project",
@@ -5913,6 +5913,7 @@
       "Microsoft.Extensions.Configuration.Json >= 8.0.0",
       "Microsoft.IdentityModel.Tokens >= 7.5.1",
       "NZWalks.DataAccess >= 1.0.0",
+      "NZWalks.Model >= 1.0.0",
       "NZWalks.Service >= 1.0.0",
       "Serilog >= 3.1.1",
       "Serilog.AspNetCore >= 8.0.1",
@@ -5949,8 +5950,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\DataAccess\\NZWalks.DataAccess.csproj": {
-              "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\DataAccess\\NZWalks.DataAccess.csproj"
+            "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj": {
+              "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj"
+            },
+            "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
+              "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj"
             },
             "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj": {
               "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj"

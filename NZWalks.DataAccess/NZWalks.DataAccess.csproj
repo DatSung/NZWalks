@@ -22,9 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Model\NZWalks.Model.csproj">
-      <Private>True</Private>
-    </ProjectReference>
+    <ProjectReference Include="..\NZWalks.Model\NZWalks.Model.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4004,8 +4004,8 @@
     },
     "NZWalks.Model/1.0.0": {
       "type": "project",
-      "path": "../Model/NZWalks.Model.csproj",
-      "msbuildProject": "../Model/NZWalks.Model.csproj"
+      "path": "../NZWalks.Model/NZWalks.Model.csproj",
+      "msbuildProject": "../NZWalks.Model/NZWalks.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4042,8 +4042,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\Model\\NZWalks.Model.csproj": {
-              "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\Model\\NZWalks.Model.csproj"
+            "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
+              "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj"
             }
           }
         }

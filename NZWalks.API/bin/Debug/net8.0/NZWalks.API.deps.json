@@ -13,6 +13,7 @@
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
           "Microsoft.IdentityModel.Tokens": "7.5.1",
           "NZWalks.DataAccess": "1.0.0",
+          "NZWalks.Model": "1.0.0",
           "NZWalks.Service": "1.0.0",
           "Serilog": "3.1.1",
           "Serilog.AspNetCore": "8.0.1",

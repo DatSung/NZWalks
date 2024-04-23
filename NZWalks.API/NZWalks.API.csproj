@@ -23,7 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccess\NZWalks.DataAccess.csproj" />
+    <ProjectReference Include="..\NZWalks.DataAccess\NZWalks.DataAccess.csproj" />
+    <ProjectReference Include="..\NZWalks.Model\NZWalks.Model.csproj" />
     <ProjectReference Include="..\NZWalks.Service\NZWalks.Service.csproj" />
   </ItemGroup>
 
