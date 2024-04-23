@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{78460E9B-FD53-487D-904C-65E54FACCCF5}|NZWalks.Service\\NZWalks.Service.csproj|solutionrelative:nzwalks.service\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "NZWalks.Service\\Mappings\\AutoMapperProfiles.cs",
               "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\Mappings\\AutoMapperProfiles.cs",
               "RelativeToolTip": "NZWalks.Service\\Mappings\\AutoMapperProfiles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T09:29:41.534Z",
               "EditorCaption": ""
@@ -107,8 +107,7 @@
               "RelativeToolTip": "NZWalks.API\\Controllers\\RegionsController.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:36:59.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T08:36:59.496Z"
             },
             {
               "$type": "Document",
