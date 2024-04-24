@@ -7,8 +7,9 @@ using NZWalks.Service.CustomActionFilters;
 
 namespace NZWalks.API.Controllers
 {
-    [Route("nzwalks/[controller]")]
+    [Route("nzwalks/v{version:apiVersion}/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class ImagesController : ControllerBase
     {
 
@@ -25,6 +26,7 @@ namespace NZWalks.API.Controllers
 
 
         // POST: /nzwalks/Images/Upload
+        [MapToApiVersion("1.0")]
         [HttpPost]
         [Route("Upload")]
         public async Task<IActionResult> Upload([FromForm] ImageUploadRequestDTO imageUploadRequestDTO)

@@ -12,8 +12,9 @@ using System.Text.Json;
 
 namespace NZWalks.API.Controllers
 {
-    [Route("nzwalks/[controller]")]
+    [Route("nzwalks/v{version:apiVersion}/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class RegionsController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -29,6 +30,7 @@ namespace NZWalks.API.Controllers
 
         // GET ALL REGIONS
         // GET: https://localhost:portnumber/nzwalks/regions
+        [MapToApiVersion("1.0")]
         [HttpGet]
         [Authorize(Roles = "Reader,Writer")]
         public async Task<IActionResult> GetAll()
@@ -62,6 +64,7 @@ namespace NZWalks.API.Controllers
 
         // GET A REGION BY ID
         // GET: https://localhost:portnumber/nzwalks/regions/{id}
+        [MapToApiVersion("1.0")]
         [HttpGet]
         [Route("{id:Guid}")]
         [Authorize(Roles = "Reader,Writer")]
@@ -88,6 +91,7 @@ namespace NZWalks.API.Controllers
 
         // POST CREATE NEW REGION
         // POST: https://localhost:portnumber/nzwalks/regions
+        [MapToApiVersion("1.0")]
         [HttpPost]
         [ValidateModel]
         [Authorize(Roles = "Writer")]
@@ -118,6 +122,7 @@ namespace NZWalks.API.Controllers
 
         // PUT UPDATE A REGION
         // PUT: https://localhost:portnumber/nzwalks/regions/{id}
+        [MapToApiVersion("1.0")]
         [HttpPut]
         [Route("{id:Guid}")]
         [ValidateModel]
@@ -155,6 +160,7 @@ namespace NZWalks.API.Controllers
 
         // DELETE DELETE A REGION
         // DELETE: https://localhost:portnumber/nzwalks/regions/{id}
+        [MapToApiVersion("1.0")]
         [HttpDelete]
         [Route("{id:Guid}")]
         [Authorize(Roles = "Writer")]

@@ -115,3 +115,615 @@ WHERE [d].[Id] = @__id_0
 2024-04-24 01:09:41.263 +07:00 [INF] Executed action NZWalks.API.Controllers.DifficultiesController.GetById (NZWalks.API) in 128.0558ms
 2024-04-24 01:09:41.271 +07:00 [INF] Executed endpoint 'NZWalks.API.Controllers.DifficultiesController.GetById (NZWalks.API)'
 2024-04-24 01:09:41.277 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/nzwalks/Difficulties/f808ddcd-b5e5-4d80-b732-1ca523e48434 - 200 null application/json; charset=utf-8 227.8329ms
+2024-04-24 18:32:20.435 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 18:32:20.874 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 18:32:20.877 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 18:32:20.881 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 18:32:20.883 +07:00 [INF] Hosting environment: Development
+2024-04-24 18:32:20.884 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 18:32:21.564 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:32:21.860 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 298.2024ms
+2024-04-24 18:32:21.881 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:32:21.892 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.0973ms
+2024-04-24 18:32:22.135 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:32:22.197 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.8375ms
+2024-04-24 18:32:22.383 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:32:22.495 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:32:22.520 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 136.7963ms
+2024-04-24 18:33:22.627 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:33:22.640 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 12.5097ms
+2024-04-24 18:33:22.665 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:33:22.665 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:33:22.669 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.6304ms
+2024-04-24 18:33:22.681 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.822ms
+2024-04-24 18:33:23.220 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:33:23.229 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:33:23.234 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 13.9453ms
+2024-04-24 18:37:11.749 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 18:37:11.883 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 18:37:11.885 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 18:37:11.890 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 18:37:11.891 +07:00 [INF] Hosting environment: Development
+2024-04-24 18:37:11.892 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 18:37:12.347 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:37:12.519 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 173.5747ms
+2024-04-24 18:37:12.531 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:37:12.531 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:37:12.537 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.0495ms
+2024-04-24 18:37:12.566 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.2305ms
+2024-04-24 18:37:12.928 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:37:13.016 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:37:13.036 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 108.173ms
+2024-04-24 18:37:49.021 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:37:49.057 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 35.1095ms
+2024-04-24 18:37:49.101 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:37:49.101 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:37:49.125 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 23.7282ms
+2024-04-24 18:37:49.144 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.4357ms
+2024-04-24 18:37:49.680 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:37:49.692 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:37:49.696 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 16.2669ms
+2024-04-24 18:37:52.791 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:37:52.808 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 16.7787ms
+2024-04-24 18:37:52.827 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:37:52.827 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:37:52.831 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.7516ms
+2024-04-24 18:37:52.841 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.004ms
+2024-04-24 18:37:53.232 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:37:53.240 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:37:53.244 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 11.4163ms
+2024-04-24 18:37:55.774 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:37:55.800 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 25.7418ms
+2024-04-24 18:37:55.853 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:37:55.853 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:37:55.859 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.2435ms
+2024-04-24 18:37:55.873 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.6469ms
+2024-04-24 18:37:56.256 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:37:56.267 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:37:56.273 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 17.3976ms
+2024-04-24 18:37:58.890 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:37:58.914 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 24.417ms
+2024-04-24 18:37:58.955 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:37:58.955 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:37:58.964 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.5524ms
+2024-04-24 18:37:58.986 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.7314ms
+2024-04-24 18:37:59.405 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:37:59.414 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:37:59.420 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 15.2015ms
+2024-04-24 18:38:25.771 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:38:25.793 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 22.2286ms
+2024-04-24 18:38:25.818 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:38:25.818 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:38:25.823 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.7827ms
+2024-04-24 18:38:25.832 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.004ms
+2024-04-24 18:38:26.691 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:38:26.699 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:38:26.704 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 12.8997ms
+2024-04-24 18:38:27.448 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:38:27.470 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 22.2834ms
+2024-04-24 18:38:27.500 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:38:27.500 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:38:27.515 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 14.9212ms
+2024-04-24 18:38:27.515 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.042ms
+2024-04-24 18:38:27.809 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:38:27.818 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:38:27.827 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 17.4643ms
+2024-04-24 18:38:32.789 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:38:32.813 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 24.1886ms
+2024-04-24 18:38:32.857 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:38:32.857 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:38:32.868 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.9171ms
+2024-04-24 18:38:32.886 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.5787ms
+2024-04-24 18:38:33.303 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:38:33.310 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:38:33.317 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 13.977ms
+2024-04-24 18:39:10.772 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:39:10.793 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 21.5623ms
+2024-04-24 18:39:10.831 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:39:10.831 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:39:10.836 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.0269ms
+2024-04-24 18:39:10.845 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.9192ms
+2024-04-24 18:39:11.466 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:39:11.480 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:39:11.492 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 26.3731ms
+2024-04-24 18:39:15.006 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 18:39:15.148 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 18:39:15.151 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 18:39:15.156 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 18:39:15.157 +07:00 [INF] Hosting environment: Development
+2024-04-24 18:39:15.159 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 18:39:15.676 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:39:15.864 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 189.8515ms
+2024-04-24 18:39:15.881 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:39:15.881 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:39:15.888 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.3431ms
+2024-04-24 18:39:15.916 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.7328ms
+2024-04-24 18:39:16.059 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:39:16.148 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:39:16.168 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 108.4035ms
+2024-04-24 18:41:28.316 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:41:28.353 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 36.9804ms
+2024-04-24 18:41:28.400 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:41:28.400 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:41:28.415 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 14.2254ms
+2024-04-24 18:41:28.452 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.3984ms
+2024-04-24 18:41:28.820 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:41:28.847 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:41:28.860 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 39.8655ms
+2024-04-24 18:41:53.460 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:41:53.479 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 19.588ms
+2024-04-24 18:41:53.505 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:41:53.505 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:41:53.511 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.7578ms
+2024-04-24 18:41:53.525 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.392ms
+2024-04-24 18:41:53.891 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:41:53.904 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:41:53.912 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 20.8032ms
+2024-04-24 18:41:55.800 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:41:55.812 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 11.2839ms
+2024-04-24 18:41:55.856 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:41:55.856 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:41:55.865 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.4608ms
+2024-04-24 18:41:55.865 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.5182ms
+2024-04-24 18:41:55.997 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:41:56.005 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:41:56.011 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 13.2685ms
+2024-04-24 18:41:58.725 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 18:41:58.881 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 18:41:58.884 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 18:41:58.888 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 18:41:58.889 +07:00 [INF] Hosting environment: Development
+2024-04-24 18:41:58.890 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 18:41:59.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:41:59.508 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 173.4315ms
+2024-04-24 18:41:59.522 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:41:59.522 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:41:59.533 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.7743ms
+2024-04-24 18:41:59.555 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.0695ms
+2024-04-24 18:41:59.684 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:41:59.759 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:41:59.780 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 95.8932ms
+2024-04-24 18:42:17.515 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:42:17.545 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 30.185ms
+2024-04-24 18:42:17.563 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:42:17.563 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:42:17.571 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.383ms
+2024-04-24 18:42:17.585 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.9382ms
+2024-04-24 18:42:17.950 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:42:17.960 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:42:17.966 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 16.6384ms
+2024-04-24 18:42:28.040 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:42:28.068 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 27.719ms
+2024-04-24 18:42:28.128 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:42:28.128 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:42:28.143 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 14.5476ms
+2024-04-24 18:42:28.146 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.4272ms
+2024-04-24 18:42:28.519 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:42:28.529 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:42:28.534 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 15.5935ms
+2024-04-24 18:42:36.342 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:42:36.365 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 23.2088ms
+2024-04-24 18:42:36.414 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:42:36.415 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:42:36.423 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.5153ms
+2024-04-24 18:42:36.440 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.7054ms
+2024-04-24 18:42:36.811 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:42:36.819 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:42:36.826 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 14.7735ms
+2024-04-24 18:42:41.597 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:42:41.613 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 15.2267ms
+2024-04-24 18:42:41.651 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:42:41.651 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:42:41.657 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.8494ms
+2024-04-24 18:42:41.669 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.5813ms
+2024-04-24 18:42:42.099 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:42:42.108 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:42:42.113 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 14.4804ms
+2024-04-24 18:42:47.165 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:42:47.184 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 19.1842ms
+2024-04-24 18:42:47.218 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:42:47.219 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:42:47.226 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.0429ms
+2024-04-24 18:42:47.229 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.6303ms
+2024-04-24 18:42:47.728 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:42:47.737 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:42:47.744 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 15.1745ms
+2024-04-24 18:42:55.876 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 18:42:56.026 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 18:42:56.029 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 18:42:56.033 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 18:42:56.034 +07:00 [INF] Hosting environment: Development
+2024-04-24 18:42:56.035 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 18:42:56.508 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:42:56.678 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 171.5478ms
+2024-04-24 18:42:56.688 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:42:56.688 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:42:56.694 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.855ms
+2024-04-24 18:42:56.726 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.8428ms
+2024-04-24 18:42:56.859 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:42:56.956 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:42:56.980 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 121.3211ms
+2024-04-24 18:44:24.301 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:44:24.327 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 26.0538ms
+2024-04-24 18:44:24.354 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:44:24.354 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:44:24.360 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.39ms
+2024-04-24 18:44:24.386 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.8012ms
+2024-04-24 18:44:24.785 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:44:24.796 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:44:24.801 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 16.4613ms
+2024-04-24 18:44:38.019 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:44:38.034 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 14.451ms
+2024-04-24 18:44:38.058 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:44:38.058 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:44:38.063 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.4546ms
+2024-04-24 18:44:38.067 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.7846ms
+2024-04-24 18:44:38.384 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:44:38.394 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET nzwalks/v{version}/Difficulties" for actions - NZWalks.API.Controllers.DifficultiesController.GetAllV1 (NZWalks.API),NZWalks.API.Controllers.DifficultiesController.GetAllV2 (NZWalks.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 18:44:38.400 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 16.1647ms
+2024-04-24 18:50:08.390 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 18:50:08.554 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 18:50:08.556 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 18:50:08.560 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 18:50:08.562 +07:00 [INF] Hosting environment: Development
+2024-04-24 18:50:08.563 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 18:50:09.002 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-04-24 18:50:09.175 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 175.1935ms
+2024-04-24 18:50:09.197 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:50:09.197 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:50:09.202 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.1675ms
+2024-04-24 18:50:09.229 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.6079ms
+2024-04-24 18:50:10.071 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:50:10.248 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 175.9603ms
+2024-04-24 18:50:17.391 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 18:50:17.407 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 404 0 null 15.2064ms
+2024-04-24 18:50:19.135 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - null null
+2024-04-24 18:50:19.150 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - 200 null text/html;charset=utf-8 14.6915ms
+2024-04-24 18:50:19.170 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:50:19.170 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:50:19.183 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 12.6225ms
+2024-04-24 18:50:19.194 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.6236ms
+2024-04-24 18:50:19.423 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:50:19.444 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.7406ms
+2024-04-24 18:50:30.516 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 18:50:30.525 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 404 0 null 8.4575ms
+2024-04-24 18:50:36.656 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - null null
+2024-04-24 18:50:36.667 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - 200 null text/html;charset=utf-8 10.9806ms
+2024-04-24 18:50:36.689 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 18:50:36.689 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 18:50:36.696 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.5392ms
+2024-04-24 18:50:36.711 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.3702ms
+2024-04-24 18:50:36.861 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 18:50:36.878 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.061ms
+2024-04-24 18:50:52.944 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 18:50:52.951 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 404 0 null 6.4687ms
+2024-04-24 19:06:08.354 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-24 19:06:08.519 +07:00 [INF] Now listening on: https://localhost:7261
+2024-04-24 19:06:08.522 +07:00 [INF] Now listening on: http://localhost:5229
+2024-04-24 19:06:08.527 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-24 19:06:08.528 +07:00 [INF] Hosting environment: Development
+2024-04-24 19:06:08.529 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-04-24 19:06:08.983 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - null null
+2024-04-24 19:06:09.089 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: An item with the same key has already been added. Key: v1
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.SwaggerDoc(SwaggerGenOptions swaggerGenOptions, String name, OpenApiInfo info)
+   at Program.<>c.<<Main>$>b__0_2(SwaggerGenOptions options) in D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\Program.cs:line 56
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Constructor(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.<>c__DisplayClass6_0.<CreateMiddleware>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 19:06:09.209 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - 500 null text/html; charset=utf-8 227.3101ms
+2024-04-24 19:06:09.229 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 19:06:09.229 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 19:06:09.238 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.3275ms
+2024-04-24 19:06:09.265 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.3536ms
+2024-04-24 19:06:10.043 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/favicon.ico - null null
+2024-04-24 19:06:10.048 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: An item with the same key has already been added. Key: v1
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.SwaggerDoc(SwaggerGenOptions swaggerGenOptions, String name, OpenApiInfo info)
+   at Program.<>c.<<Main>$>b__0_2(SwaggerGenOptions options) in D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\Program.cs:line 56
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.<>c__DisplayClass6_0.<CreateMiddleware>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-24 19:06:10.072 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/favicon.ico - 500 null text/plain; charset=utf-8 28.9514ms
+2024-04-24 19:06:39.262 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - null null
+2024-04-24 19:06:39.383 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - 200 null text/html;charset=utf-8 121.1764ms
+2024-04-24 19:06:39.412 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 19:06:39.419 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.1775ms
+2024-04-24 19:06:39.591 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 19:06:39.611 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.016ms
+2024-04-24 19:06:39.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 19:06:39.926 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 218.1567ms
+2024-04-24 19:06:41.634 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 19:06:41.645 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 10.9724ms
+2024-04-24 19:06:42.980 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 19:06:43.000 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.8848ms
+2024-04-24 19:06:44.010 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 19:06:44.018 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 8.0434ms
+2024-04-24 19:06:48.684 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - null null
+2024-04-24 19:06:48.706 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html?urls.primaryName=v2 - 200 null text/html;charset=utf-8 22.4319ms
+2024-04-24 19:06:48.751 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-24 19:06:48.751 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-04-24 19:06:48.756 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.1571ms
+2024-04-24 19:06:48.765 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.7801ms
+2024-04-24 19:06:48.948 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 19:06:48.975 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.9329ms
+2024-04-24 19:06:51.245 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 19:06:51.253 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 8.5886ms
+2024-04-24 19:06:53.388 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 19:06:53.401 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9177ms
+2024-04-24 19:06:59.067 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 19:06:59.075 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 8.1211ms
+2024-04-24 19:06:59.877 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 19:06:59.895 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.0182ms
+2024-04-24 19:07:00.522 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 19:07:00.530 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 8.0881ms
+2024-04-24 19:07:01.264 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 19:07:01.276 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.3824ms
+2024-04-24 19:07:03.283 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 19:07:03.290 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 7.1095ms
+2024-04-24 19:07:20.100 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 19:07:20.111 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.6166ms
+2024-04-24 19:07:21.064 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - null null
+2024-04-24 19:07:21.070 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v2/swagger.json - 200 null application/json;charset=utf-8 6.0076ms
+2024-04-24 19:07:28.099 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-04-24 19:07:28.111 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.933ms

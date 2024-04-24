@@ -9,8 +9,9 @@ using NZWalks.Service.CustomActionFilters;
 
 namespace NZWalks.API.Controllers
 {
-    [Route("nzwalks/[controller]")]
+    [Route("nzwalks/v{version:apiVersion}/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class WalksController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -26,6 +27,7 @@ namespace NZWalks.API.Controllers
 
         // CREATE A WALK
         // POST: /nzwalks/walks
+        [MapToApiVersion("1.0")]
         [HttpPost]
         [ValidateModel]
         [Authorize(Roles = "Writer")]
@@ -55,6 +57,7 @@ namespace NZWalks.API.Controllers
 
         // GET ALL WALKS
         // GET: /nzwalks/walks?filterOn=Name&filterQuery=Track&sortBy=Name&isAscending=true
+        [MapToApiVersion("1.0")]
         [HttpGet]
         [Authorize(Roles = "Reader,Writer")]
         public async Task<IActionResult> GetAll(
@@ -156,6 +159,7 @@ namespace NZWalks.API.Controllers
 
         // GET A WALK
         // GET: /nzwalks/walks/{id}
+        [MapToApiVersion("1.0")]
         [HttpGet]
         [Route("{id:Guid}")]
         [Authorize(Roles = "Reader,Writer")]
@@ -177,6 +181,7 @@ namespace NZWalks.API.Controllers
 
         // UPDATE A WALK 
         // PUT: /nzwalks/walks/{id}
+        [MapToApiVersion("1.0")]
         [HttpPut]
         [Route("{id:Guid}")]
         [ValidateModel]
@@ -218,6 +223,7 @@ namespace NZWalks.API.Controllers
 
         // DELETE A WALK
         // DELETE: /nzwalks/walks/{id}
+        [MapToApiVersion("1.0")]
         [HttpDelete]
         [Route("{id:Guid}")]
         [Authorize(Roles = "Writer")]

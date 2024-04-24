@@ -7,8 +7,9 @@ using NZWalks.Model.Models.DTO;
 
 namespace NZWalks.API.Controllers
 {
-    [Route("nzwalks/[controller]")]
+    [Route("nzwalks/v{version:apiVersion}/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class AuthController : ControllerBase
     {
 
@@ -22,6 +23,7 @@ namespace NZWalks.API.Controllers
         }
 
         // POST: /nzwalks/Auth/Register
+        [MapToApiVersion("1.0")]
         [HttpPost]
         [Route("Register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequestDTO registerRequestDTO)
@@ -54,6 +56,7 @@ namespace NZWalks.API.Controllers
 
 
         // POST: /nzwalks/Auth/Login
+        [MapToApiVersion("1.0")]
         [HttpPost]
         [Route("Login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDTO loginRequestDTO)
