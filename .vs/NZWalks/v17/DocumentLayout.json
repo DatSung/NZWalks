@@ -1,7 +1,35 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78460E9B-FD53-487D-904C-65E54FACCCF5}|NZWalks.Service\\NZWalks.Service.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\nzwalks.service\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78460E9B-FD53-487D-904C-65E54FACCCF5}|NZWalks.Service\\NZWalks.Service.csproj|solutionrelative:nzwalks.service\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\nzwalks.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1457B1DF-86FA-408C-B591-5A2E023071A3}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91C688F3-6170-4FBE-9EA4-6EB39C79F79E}|NZWalks.DataAccess\\NZWalks.DataAccess.csproj|d:\\outside_sources\\aspnet_core_api\\handon-projects\\nzwalks\\nzwalks.dataaccess\\data\\nzwalksauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C688F3-6170-4FBE-9EA4-6EB39C79F79E}|NZWalks.DataAccess\\NZWalks.DataAccess.csproj|solutionrelative:nzwalks.dataaccess\\data\\nzwalksauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91C688F3-6170-4FBE-9EA4-6EB39C79F79E}|NZWalks.DataAccess\\NZWalks.DataAccess.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\nzwalks.dataaccess\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C688F3-6170-4FBE-9EA4-6EB39C79F79E}|NZWalks.DataAccess\\NZWalks.DataAccess.csproj|solutionrelative:nzwalks.dataaccess\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ASUS_VIVOBOOK_S_SQLEXPRESS/NZWalksAuthDb/sa/SqlTable/dbo.AspNetUserTokens.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78460E9B-FD53-487D-904C-65E54FACCCF5}|NZWalks.Service\\NZWalks.Service.csproj|D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\nzwalks.service\\customactionfilters\\validatemodelattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78460E9B-FD53-487D-904C-65E54FACCCF5}|NZWalks.Service\\NZWalks.Service.csproj|solutionrelative:nzwalks.service\\customactionfilters\\validatemodelattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1170,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +50,91 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{99a11807-c5db-4877-ad35-09b56a044002}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NZWalksAuthDbContext.cs",
+              "DocumentMoniker": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\Data\\NZWalksAuthDbContext.cs",
+              "RelativeDocumentMoniker": "NZWalks.DataAccess\\Data\\NZWalksAuthDbContext.cs",
+              "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\Data\\NZWalksAuthDbContext.cs",
+              "RelativeToolTip": "NZWalks.DataAccess\\Data\\NZWalksAuthDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:03:49.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NZWalks.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:03:00.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.AspNetUserTokens [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/ASUS_VIVOBOOK_S_SQLEXPRESS/NZWalksAuthDb/sa/SqlTable/dbo.AspNetUserTokens.sql",
+              "ToolTip": "dbo.AspNetUserTokens [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-25T05:55:23.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\Program.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Program.cs",
+              "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\Program.cs",
+              "RelativeToolTip": "NZWalks.API\\Program.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:53:28.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\Mappings\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "NZWalks.Service\\Mappings\\AutoMapperProfiles.cs",
+              "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\Mappings\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "NZWalks.Service\\Mappings\\AutoMapperProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:52:16.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NZWalksDbContext.cs",
+              "DocumentMoniker": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\Data\\NZWalksDbContext.cs",
+              "RelativeDocumentMoniker": "NZWalks.DataAccess\\Data\\NZWalksDbContext.cs",
+              "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\Data\\NZWalksDbContext.cs",
+              "RelativeToolTip": "NZWalks.DataAccess\\Data\\NZWalksDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:04:20.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidateModelAttribute.cs",
+              "DocumentMoniker": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\CustomActionFilters\\ValidateModelAttribute.cs",
+              "RelativeDocumentMoniker": "NZWalks.Service\\CustomActionFilters\\ValidateModelAttribute.cs",
+              "ToolTip": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\CustomActionFilters\\ValidateModelAttribute.cs",
+              "RelativeToolTip": "NZWalks.Service\\CustomActionFilters\\ValidateModelAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:52:07.761Z"
             }
           ]
         },
