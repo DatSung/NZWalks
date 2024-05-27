@@ -24,7 +24,6 @@ D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NZWalks.API.props
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug\net8.0\scopedcss\bundle\NZWalks.API.styles.css
-D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks..A36796ED.Up2Date
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug\net8.0\refint\NZWalks.API.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.pdb
@@ -160,3 +159,4 @@ D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.csproj.CopyComplete

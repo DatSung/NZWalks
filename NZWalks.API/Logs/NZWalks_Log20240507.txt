@@ -1,0 +1,47 @@
+2024-05-07 11:27:05.401 +07:00 [INF] User profile is available. Using 'C:\Users\uinic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-07 11:27:05.795 +07:00 [INF] Now listening on: https://localhost:7261
+2024-05-07 11:27:05.796 +07:00 [INF] Now listening on: http://localhost:5229
+2024-05-07 11:27:05.799 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-07 11:27:05.800 +07:00 [INF] Hosting environment: Development
+2024-05-07 11:27:05.801 +07:00 [INF] Content root path: D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API
+2024-05-07 11:27:06.681 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-05-07 11:27:06.958 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 287.8999ms
+2024-05-07 11:27:07.024 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/swagger-ui-bundle.js - null null
+2024-05-07 11:27:07.024 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-07 11:27:07.057 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 11:27:07.059 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 34.9895ms
+2024-05-07 11:27:07.065 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 11:27:07.066 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 42.2382ms
+2024-05-07 11:27:07.393 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-05-07 11:27:07.543 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 149.93ms
+2024-05-07 11:27:20.230 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/ThisPictureOnlyToTestUpload - null null
+2024-05-07 11:27:21.648 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/ThisPictureOnlyToTestUpload - 404 0 null 1417.289ms
+2024-05-07 11:27:21.653 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7261/ThisPictureOnlyToTestUpload, Response status code: 404
+2024-05-07 11:27:44.848 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - null null
+2024-05-07 11:27:44.852 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - 404 0 null 4.2497ms
+2024-05-07 11:27:44.858 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload, Response status code: 404
+2024-05-07 11:27:49.838 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - null null
+2024-05-07 11:27:49.845 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - 404 0 null 7.2177ms
+2024-05-07 11:27:49.849 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload, Response status code: 404
+2024-05-07 11:27:51.958 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - null null
+2024-05-07 11:27:51.964 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - 404 0 null 5.9369ms
+2024-05-07 11:27:51.969 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload, Response status code: 404
+2024-05-07 11:27:53.476 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - null null
+2024-05-07 11:27:53.482 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - 404 0 null 6.1791ms
+2024-05-07 11:27:53.488 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload, Response status code: 404
+2024-05-07 11:27:53.649 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - null null
+2024-05-07 11:27:53.654 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - 404 0 null 5.1315ms
+2024-05-07 11:27:53.658 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload, Response status code: 404
+2024-05-07 11:27:53.817 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - null null
+2024-05-07 11:27:53.822 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - 404 0 null 4.9943ms
+2024-05-07 11:27:53.827 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload, Response status code: 404
+2024-05-07 11:27:53.963 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - null null
+2024-05-07 11:27:53.968 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload - 404 0 null 4.9612ms
+2024-05-07 11:27:53.972 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload, Response status code: 404
+2024-05-07 11:28:01.561 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload.jpg - null null
+2024-05-07 11:28:01.601 +07:00 [INF] Sending file. Request path: '/ThisPictureOnlyToTestUpload.jpg'. Physical path: 'D:\Outside_Sources\ASPNET_Core_API\Handon-Projects\NZWalks\NZWalks.API\Images\ThisPictureOnlyToTestUpload.jpg'
+2024-05-07 11:28:01.611 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/Images/ThisPictureOnlyToTestUpload.jpg - 200 185100 image/jpeg 49.7141ms
+2024-05-07 11:28:01.979 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/favicon.ico - null null
+2024-05-07 11:28:01.983 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/favicon.ico - 404 0 null 4.1731ms
+2024-05-07 11:28:01.986 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7261/favicon.ico, Response status code: 404
+2024-05-07 11:28:26.729 +07:00 [INF] Application is shutting down...
