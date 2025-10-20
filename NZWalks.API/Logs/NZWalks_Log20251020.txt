@@ -1,0 +1,45 @@
+2025-10-20 12:23:36.232 +07:00 [INF] User profile is available. Using 'C:\Users\PC_Good\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 12:23:36.448 +07:00 [INF] Now listening on: https://localhost:7261
+2025-10-20 12:23:36.448 +07:00 [INF] Now listening on: http://localhost:5229
+2025-10-20 12:23:36.450 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 12:23:36.451 +07:00 [INF] Hosting environment: Development
+2025-10-20 12:23:36.452 +07:00 [INF] Content root path: D:\Support_FPT\NT150_AutomationTest_Lap4\NZWalks\NZWalks.API
+2025-10-20 12:23:37.148 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger - null null
+2025-10-20 12:23:37.185 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger - 301 0 null 38.2632ms
+2025-10-20 12:23:37.198 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2025-10-20 12:23:37.260 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 62.0856ms
+2025-10-20 12:23:37.284 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/swagger-ui.css - null null
+2025-10-20 12:23:37.284 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/swagger-ui-bundle.js - null null
+2025-10-20 12:23:37.284 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/swagger-ui-standalone-preset.js - null null
+2025-10-20 12:23:37.313 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-10-20 12:23:37.313 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-10-20 12:23:37.313 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-10-20 12:23:37.314 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 30.1538ms
+2025-10-20 12:23:37.315 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/swagger-ui.css - 200 143943 text/css 31.2862ms
+2025-10-20 12:23:37.316 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 31.9344ms
+2025-10-20 12:23:37.537 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2025-10-20 12:23:37.547 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/favicon-32x32.png - null null
+2025-10-20 12:23:37.549 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-10-20 12:23:37.550 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/favicon-32x32.png - 200 628 image/png 3.0178ms
+2025-10-20 12:23:37.651 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.7751ms
+2025-10-20 12:23:47.722 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/nzwalks/v1/Walks?pageNumber=1&pageSize=3 - null null
+2025-10-20 12:23:48.471 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Reader|Writer)
+2025-10-20 12:23:48.475 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-10-20 12:23:48.476 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/nzwalks/v1/Walks?pageNumber=1&pageSize=3 - 401 0 null 754.0033ms
+2025-10-20 12:26:07.416 +07:00 [INF] Application is shutting down...
+2025-10-20 12:52:41.294 +07:00 [INF] User profile is available. Using 'C:\Users\PC_Good\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 12:52:41.414 +07:00 [INF] Now listening on: https://localhost:7261
+2025-10-20 12:52:41.415 +07:00 [INF] Now listening on: http://localhost:5229
+2025-10-20 12:52:41.417 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 12:52:41.418 +07:00 [INF] Hosting environment: Development
+2025-10-20 12:52:41.418 +07:00 [INF] Content root path: D:\Support_FPT\NT150_AutomationTest_Lap4\NZWalks\NZWalks.API
+2025-10-20 12:52:41.872 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2025-10-20 12:52:41.979 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 107.0095ms
+2025-10-20 12:52:42.231 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2025-10-20 12:52:42.342 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.1055ms
+2025-10-20 12:52:49.868 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2025-10-20 12:52:49.873 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 5.018ms
+2025-10-20 12:52:49.989 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2025-10-20 12:52:49.998 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.2277ms
+2025-10-20 12:52:53.515 +07:00 [INF] Application is shutting down...

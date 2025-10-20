@@ -1294,7 +1294,10 @@
           "NZWalks.Model": "1.0.0"
         },
         "runtime": {
-          "NZWalks.DataAccess.dll": {}
+          "NZWalks.DataAccess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "NZWalks.Model/1.0.0": {
@@ -1302,17 +1305,24 @@
           "Microsoft.AspNetCore.Http.Features": "2.2.0"
         },
         "runtime": {
-          "NZWalks.Model.dll": {}
+          "NZWalks.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "NZWalks.Service/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "NZWalks.DataAccess": "1.0.0",
           "NZWalks.Model": "1.0.0"
         },
         "runtime": {
-          "NZWalks.Service.dll": {}
+          "NZWalks.Service.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

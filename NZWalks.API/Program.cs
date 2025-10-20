@@ -13,6 +13,8 @@ using Serilog;
 using NZWalks.API.Middlewares;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using NZWalks.API.Configurers;
+using NZWalks.Service.Service.Implement;
+using NZWalks.Service.Service.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -94,6 +96,7 @@ builder.Services.AddDbContext<NZWalksAuthDbContext>(
 
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IWalksService, WalksService>();
 
 builder.Services.AddScoped<ITokenRepository, TokenRepository>();
 

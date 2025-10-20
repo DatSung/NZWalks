@@ -1,11 +1,8 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using NZWalks.DataAccess.Repository.IRepository;
-using NZWalks.Model.Models.Domain;
 using NZWalks.Model.Models.DTO;
 using NZWalks.Service.CustomActionFilters;
+using NZWalks.Service.Service.Interface;
 
 namespace NZWalks.API.Controllers
 {
@@ -14,242 +11,67 @@ namespace NZWalks.API.Controllers
     [ApiVersion("1.0")]
     public class WalksController : ControllerBase
     {
-        private readonly IUnitOfWork _unitOfWork;
-        private readonly IMapper _mapper;
+        private readonly IWalksService _walksService;
         private readonly ILogger<WalksController> _logger;
 
-        public WalksController(IUnitOfWork unitOfWork, IMapper mapper, ILogger<WalksController> logger)
+        public WalksController(IWalksService walksService, ILogger<WalksController> logger)
         {
-            _mapper = mapper;
-            _unitOfWork = unitOfWork;
+            _walksService = walksService;
             _logger = logger;
         }
 
-        // CREATE A WALK
-        // POST: /nzwalks/walks
         [MapToApiVersion("1.0")]
         [HttpPost]
         [ValidateModel]
         [Authorize(Roles = "Writer")]
-        public async Task<IActionResult> Create([FromBody] AddWalkRequestDTO addWalkRequestDTO)
+        public async Task<IActionResult> Create([FromBody] AddWalkRequestDTO dto)
         {
-            try
-            {
-
-                // Map DTO to Model
-                var walk = _mapper.Map<Walk>(addWalkRequestDTO);
-
-                // Create new walk
-                await _unitOfWork.WalkRepository.AddAsync(walk);
-                await _unitOfWork.SaveAsync();
-
-                // Map Model to DTO
-                var walkDTO = _mapper.Map<WalkDTO>(walk);
-
-                // Return Ok
-                return Ok(walkDTO);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
+            var result = await _walksService.CreateAsync(dto);
+            return Ok(result);
         }
 
-        // GET ALL WALKS
-        // GET: /nzwalks/walks?filterOn=Name&filterQuery=Track&sortBy=Name&isAscending=true
         [MapToApiVersion("1.0")]
         [HttpGet]
         [Authorize(Roles = "Reader,Writer")]
-        public async Task<IActionResult> GetAll(
-            [FromQuery] string? filterOn,
-            [FromQuery] string? filterQuery,
-            [FromQuery] string? sortBy,
-            [FromQuery] bool? isAscending,
-            [FromQuery] int pageNumber = 1,
-            [FromQuery] int pageSize = 3
-
-            )
+        public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
+            [FromQuery] string? sortBy, [FromQuery] bool? isAscending, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 3)
         {
-            try
-            {
-                var walksDTO = new List<WalkDTO>();
-
-                // Filter
-                if (!string.IsNullOrEmpty(filterOn) && !string.IsNullOrEmpty(filterQuery))
-                {
-
-                    switch (filterOn.Trim().ToLower())
-                    {
-                        case "name":
-                            {
-                                walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
-                                    filter: x => x.Name.Contains(filterQuery), includeProperties: "Region,Difficulty"));
-
-                                break;
-                            }
-
-                        case "description":
-                            {
-                                walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
-                                    filter: x => x.Description.Contains(filterQuery), includeProperties: "Region,Difficulty"));
-
-                                break;
-                            }
-
-                        case "lengthtnkm":
-                            {
-                                walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
-                                    filter: x => x.LengthInKm == double.Parse(filterQuery), includeProperties: "Region,Difficulty"));
-
-                                break;
-                            }
-
-                        default:
-                            {
-                                walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
-                                    includeProperties: "Region,Difficulty"));
-
-                                break;
-                            }
-                    }
-                }
-                else
-                {
-                    walksDTO = _mapper.Map<List<WalkDTO>>(await _unitOfWork.WalkRepository.GetAllAsync(
-                        includeProperties: "Region,Difficulty"));
-                }
-
-                // Sort
-                if (!string.IsNullOrEmpty(sortBy))
-                {
-                    switch (sortBy.Trim().ToLower())
-                    {
-                        case "name":
-                            {
-                                walksDTO = isAscending == true ? [.. walksDTO.OrderBy(x => x.Name)] : [.. walksDTO.OrderByDescending(x => x.Name)];
-                                break;
-                            }
-
-                        case "description":
-                            {
-                                walksDTO = isAscending == true ? [.. walksDTO.OrderBy(x => x.Description)] : [.. walksDTO.OrderByDescending(x => x.Description)];
-                                break;
-                            }
-
-                        case "lengthinkm":
-                            {
-                                walksDTO = isAscending == true ? [.. walksDTO.OrderBy(x => x.LengthInKm)] : [.. walksDTO.OrderByDescending(x => x.LengthInKm)];
-                                break;
-                            }
-                    }
-                }
-
-                // Pagination
-                var skilResult = (pageNumber - 1) * pageSize;
-
-                return Ok(walksDTO.Skip(skilResult).Take(pageSize));
-
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
+            var result = await _walksService.GetAllAsync(filterOn, filterQuery, sortBy, isAscending, pageNumber, pageSize);
+            return Ok(result);
         }
 
-
-        // GET A WALK
-        // GET: /nzwalks/walks/{id}
         [MapToApiVersion("1.0")]
-        [HttpGet]
-        [Route("{id:Guid}")]
+        [HttpGet("{id:Guid}")]
         [Authorize(Roles = "Reader,Writer")]
-        public async Task<IActionResult> Get([FromRoute] Guid id)
+        public async Task<IActionResult> Get(Guid id)
         {
-            try
-            {
-                var walkDTO = _mapper.Map<WalkDTO>(
-                    await _unitOfWork.WalkRepository.GetAsync(
-                        filter: x => x.Id == id, includeProperties: "Region,Difficulty"));
-
-                return Ok(walkDTO);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
+            var result = await _walksService.GetByIdAsync(id);
+            if (result == null)
+                return NotFound();
+            return Ok(result);
         }
 
-        // UPDATE A WALK 
-        // PUT: /nzwalks/walks/{id}
         [MapToApiVersion("1.0")]
-        [HttpPut]
-        [Route("{id:Guid}")]
+        [HttpPut("{id:Guid}")]
         [ValidateModel]
         [Authorize(Roles = "Writer")]
-        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateWalkRequestDTO updateWalkRequestDTO)
+        public async Task<IActionResult> Update(Guid id, [FromBody] UpdateWalkRequestDTO dto)
         {
-            try
-            {
-
-                var walk = await _unitOfWork.WalkRepository.GetAsync(x => x.Id == id);
-
-                if (walk == null)
-                {
-                    return NotFound();
-                }
-
-                //Update Walk
-                walk.Name = updateWalkRequestDTO.Name;
-                walk.Description = updateWalkRequestDTO.Description;
-                walk.LengthInKm = updateWalkRequestDTO.LengthInKm;
-                walk.WalkImageUrl = updateWalkRequestDTO.WalkImageUrl;
-                walk.DifficultyId = updateWalkRequestDTO.DifficultyId;
-                walk.RegionId = updateWalkRequestDTO.RegionId;
-
-                await _unitOfWork.SaveAsync();
-
-                var walkDTO = _mapper.Map<WalkDTO>(
-                    await _unitOfWork.WalkRepository.GetAsync(
-                        filter: x => x.Id == id, includeProperties: "Region,Difficulty"));
-
-                return Ok(walkDTO);
-
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
+            var result = await _walksService.UpdateAsync(id, dto);
+            if (result == null)
+                return NotFound();
+            return Ok(result);
         }
 
-        // DELETE A WALK
-        // DELETE: /nzwalks/walks/{id}
         [MapToApiVersion("1.0")]
-        [HttpDelete]
-        [Route("{id:Guid}")]
+        [HttpDelete("{id:Guid}")]
         [Authorize(Roles = "Writer")]
-        public async Task<IActionResult> Delete([FromRoute] Guid id)
+        public async Task<IActionResult> Delete(Guid id)
         {
-            try
-            {
-                var walk = await _unitOfWork.WalkRepository.GetAsync(x => x.Id == id);
-
-                if (walk == null)
-                {
-                    return NotFound();
-                }
-
-                _unitOfWork.WalkRepository.Remove(walk);
-                await _unitOfWork.SaveAsync();
-
-                var walkDTO = _mapper.Map<WalkDTO>(walk);
-
-                return Ok(walkDTO);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
+            var result = await _walksService.DeleteAsync(id);
+            if (result == null)
+                return NotFound();
+            return Ok(result);
         }
-
     }
 }

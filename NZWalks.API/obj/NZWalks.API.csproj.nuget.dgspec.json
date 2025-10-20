@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {}
+    "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {}
   },
   "projects": {
-    "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {
+    "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
+        "projectUniqueName": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
         "projectName": "NZWalks.API",
-        "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
-        "packagesPath": "C:\\Users\\uinic\\.nuget\\packages\\",
-        "outputPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.API\\obj\\",
+        "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
+        "packagesPath": "C:\\Users\\PC_Good\\.nuget\\packages\\",
+        "outputPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\uinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC_Good\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +32,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj": {
-                "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj"
+              "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj": {
+                "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj"
               },
-              "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
-                "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj"
+              "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
+                "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj"
               },
-              "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj": {
-                "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj"
+              "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj": {
+                "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj"
               }
             }
           }
@@ -49,7 +53,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -125,21 +130,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj": {
+    "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj",
+        "projectUniqueName": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj",
         "projectName": "NZWalks.DataAccess",
-        "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\uinic\\.nuget\\packages\\",
-        "outputPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.DataAccess\\obj\\",
+        "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\PC_Good\\.nuget\\packages\\",
+        "outputPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\uinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC_Good\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -153,8 +162,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
-                "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj"
+              "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
+                "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj"
               }
             }
           }
@@ -168,7 +177,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -219,21 +229,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
+    "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj",
+        "projectUniqueName": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj",
         "projectName": "NZWalks.Model",
-        "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj",
-        "packagesPath": "C:\\Users\\uinic\\.nuget\\packages\\",
-        "outputPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\obj\\",
+        "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj",
+        "packagesPath": "C:\\Users\\PC_Good\\.nuget\\packages\\",
+        "outputPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\uinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC_Good\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,7 +272,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -285,21 +300,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj": {
+    "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj",
+        "projectUniqueName": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj",
         "projectName": "NZWalks.Service",
-        "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj",
-        "packagesPath": "C:\\Users\\uinic\\.nuget\\packages\\",
-        "outputPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Service\\obj\\",
+        "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Service\\NZWalks.Service.csproj",
+        "packagesPath": "C:\\Users\\PC_Good\\.nuget\\packages\\",
+        "outputPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\uinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC_Good\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -313,8 +332,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
-                "projectPath": "D:\\Outside_Sources\\ASPNET_Core_API\\Handon-Projects\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj"
+              "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj": {
+                "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.DataAccess\\NZWalks.DataAccess.csproj"
+              },
+              "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj": {
+                "projectPath": "D:\\Support_FPT\\NT150_AutomationTest_Lap4\\NZWalks\\NZWalks.Model\\NZWalks.Model.csproj"
               }
             }
           }
@@ -328,7 +350,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -359,7 +382,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
