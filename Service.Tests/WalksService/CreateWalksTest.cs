@@ -28,7 +28,7 @@ namespace Service.Tests.WalksService
         [Fact]
         public async Task Handle_CreateWalkWithCorrectInput_ReturnsCreatedWalk()
         {
-            // ✅ Arrange - seed Region và Difficulty trước
+            // Arrange - seed Region và Difficulty trước
             var region = new Region
             {
                 Id = Guid.NewGuid(),
@@ -46,7 +46,7 @@ namespace Service.Tests.WalksService
             await _dbContext.Difficulties.AddAsync(difficulty);
             await _dbContext.SaveChangesAsync();
 
-            // ✅ Tạo Walk dùng ID thật từ DB
+            // Tạo Walk dùng ID thật từ DB
             var addWalkDto = new AddWalkRequestDTO
             {
                 Name = "Test Walk",
